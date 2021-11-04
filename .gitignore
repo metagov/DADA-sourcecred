@@ -3,6 +3,5 @@ site/
 output/
 cache/
 
-.env
 **/.DS_Store
 **/.DS_Store?
