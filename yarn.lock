@@ -1243,7 +1243,7 @@ bech32@1.1.4:
   resolved "https://registry.npmjs.org/bech32/-/bech32-1.1.4.tgz"
   integrity sha512-s0IrSOzLlbvX7yp4WBfPITzpAU8sqQcpsmwXDiKwrG4r491vwCO/XpejasRNl0piBMe/DvP4Tz0mIS/X1DPJBQ==
 
-better-sqlite3@^7.0.0, better-sqlite3@^7.4.4:
+better-sqlite3@^7.0.0:
   version "7.4.4"
   resolved "https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-7.4.4.tgz"
   integrity sha512-CnK1JjchxbEumd2J6lqfzSG5nT4B/v+J9P0AKSm3NHSfcPsEGE4rHUp9lDlslJ1TL701RM7GWlTp3Pbacpn1/Q==
@@ -1251,6 +1251,14 @@ better-sqlite3@^7.0.0, better-sqlite3@^7.4.4:
     bindings "^1.5.0"
     prebuild-install "^6.1.4"
     tar "^6.1.11"
+
+better-sqlite3@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-8.1.0.tgz#a0039c5dfdc04b733cac3c8dbe1b71f3e5fc62d3"
+  integrity sha512-p1m09H+Oi8R9TPj810pdNswMFuVgRNgCJEWypp6jlkOgSwMIrNyuj3hW78xEuBRGok5RzeaUW8aBtTWF3l/TQA==
+  dependencies:
+    bindings "^1.5.0"
+    prebuild-install "^7.1.0"
 
 big-integer@^1.6.48:
   version "1.6.48"
@@ -1909,6 +1917,13 @@ decompress-response@^4.2.0:
   dependencies:
     mimic-response "^2.0.0"
 
+decompress-response@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/decompress-response/-/decompress-response-6.0.0.tgz#ca387612ddb7e104bd16d85aab00d5ecf09c66fc"
+  integrity sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==
+  dependencies:
+    mimic-response "^3.1.0"
+
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz"
@@ -1962,6 +1977,11 @@ detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+
+detect-libc@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.1.tgz#e1897aa88fa6ad197862937fbc0441ef352ee0cd"
+  integrity sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==
 
 diacritic@0.0.2:
   version "0.0.2"
@@ -3493,6 +3513,13 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
+  dependencies:
+    yallist "^4.0.0"
+
 ltgt@~2.2.0:
   version "2.2.1"
   resolved "https://registry.npmjs.org/ltgt/-/ltgt-2.2.1.tgz"
@@ -3612,6 +3639,11 @@ mimic-response@^2.0.0:
   resolved "https://registry.npmjs.org/mimic-response/-/mimic-response-2.1.0.tgz"
   integrity sha512-wXqjST+SLt7R009ySCglWBCFpjUygmCIfD790/kVbiGmUgfYGuB14PiTd5DwVxSV4NcYHjzMkoj5LjQZwTQLEA==
 
+mimic-response@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-3.1.0.tgz#2d1d59af9c1b129815accc2c46a022a5ce1fa3c9"
+  integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
+
 min-document@^2.19.0:
   version "2.19.0"
   resolved "https://registry.npmjs.org/min-document/-/min-document-2.19.0.tgz"
@@ -3705,6 +3737,13 @@ node-abi@^2.21.0:
   integrity sha512-/2D0wOQPgaUWzVSVgRMx+trKJRC2UG4SUc4oCJoXx9Uxjtp0Vy3/kt7zcbxHF8+Z/pK3UloLWzBISg72brfy1w==
   dependencies:
     semver "^5.4.1"
+
+node-abi@^3.3.0:
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.32.0.tgz#a22e038efab01d9a35c6b19808b430616ed80539"
+  integrity sha512-HkwdiLzE/LeuOMIQq/dJq70oNyRc88+wt5CH/RXYseE00LkA/c4PkS6Ti1vE4OHYUiKjkwuxjWq9pItgrz8UJw==
+  dependencies:
+    semver "^7.3.5"
 
 node-addon-api@^2.0.0:
   version "2.0.2"
@@ -3958,6 +3997,24 @@ prebuild-install@^6.1.4:
     pump "^3.0.0"
     rc "^1.2.7"
     simple-get "^3.0.3"
+    tar-fs "^2.0.0"
+    tunnel-agent "^0.6.0"
+
+prebuild-install@^7.1.0:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-7.1.1.tgz#de97d5b34a70a0c81334fd24641f2a1702352e45"
+  integrity sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==
+  dependencies:
+    detect-libc "^2.0.0"
+    expand-template "^2.0.3"
+    github-from-package "0.0.0"
+    minimist "^1.2.3"
+    mkdirp-classic "^0.5.3"
+    napi-build-utils "^1.0.1"
+    node-abi "^3.3.0"
+    pump "^3.0.0"
+    rc "^1.2.7"
+    simple-get "^4.0.0"
     tar-fs "^2.0.0"
     tunnel-agent "^0.6.0"
 
@@ -4592,6 +4649,13 @@ semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
+semver@^7.3.5:
+  version "7.3.8"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
+  integrity sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==
+  dependencies:
+    lru-cache "^6.0.0"
+
 semver@~5.4.1:
   version "5.4.1"
   resolved "https://registry.npmjs.org/semver/-/semver-5.4.1.tgz"
@@ -4687,6 +4751,15 @@ simple-get@^3.0.3:
   integrity sha512-bCR6cP+aTdScaQCnQKbPKtJOKDp/hj9EDLJo3Nw4y1QksqaovlW/bnptB6/c1e+qmNIDHRK+oXFDdEqBT8WzUA==
   dependencies:
     decompress-response "^4.2.0"
+    once "^1.3.1"
+    simple-concat "^1.0.0"
+
+simple-get@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/simple-get/-/simple-get-4.0.1.tgz#4a39db549287c979d352112fa03fd99fd6bc3543"
+  integrity sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==
+  dependencies:
+    decompress-response "^6.0.0"
     once "^1.3.1"
     simple-concat "^1.0.0"
 
